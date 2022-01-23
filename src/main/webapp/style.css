@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    background-image: url("bookClub.jpg");
+    background-size:cover;
+}
+
+.title-bar{
+    background-color: #FFB319;
+    padding: 15px;
+    margin-bottom: 0.7rem;
+}
+
+.title-bar h1{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.container{
+    position: absolute;
+    height: 89%;
+}
+
+.sign-in-box{
+    background-color: #FFE194;
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    left: 1100px;
+    padding: 2em;
+    border-radius: 1%;
+    opacity: 90%;
+    
+}
+
+.sign-in-box input{
+    margin: 5px;
+    min-width: 250px;
+    border-radius: 5px;
+    border: none;
+}
+
+.sign-in-box input::selection{
+    border: none;
+}
+
+.sign-in-box a{
+    text-decoration: none;
+    color: black;
+}
+
+.sign-in-box a:hover{
+    color: #fff;
+}

@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    color: #fff;
+}
+
+.nav-bar{
+    display: flex;
+    background-color: #FFB319;
+    padding: 1em;
+}
+
+.nav-bar a{
+    padding: 10px;
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar h1{
+    margin: 0;
+    padding: 0;
+    flex: 1;
+}
+
+.body-container{
+    background-image: url("./weekBook.jpg");
+    background-size: cover;
+    background-position-y: center;
+    height: 650px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.body-container h2{
+    margin: 0;
+    font-size: 50px;
+    width: 100px;
+    padding-left: 30px;
+    
+}
+
+.weekly-book img{
+    margin: 2em 2em;
+    border: solid #fff;
+
+}
+
+.bookslist{
+    display: grid ;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}

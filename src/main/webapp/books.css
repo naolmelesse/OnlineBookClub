@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.weekly-book{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: black;
+}
+
+.book-container{
+    border-style: solid;
+    height: 250px;
+    width: 200px;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.weekly-book img{
+   width: 150px;
+   height: 200px;
+   margin: 0;
+}
+
+.weekly-book h3{
+    margin: 0;
+    padding: 0;
+}
+
